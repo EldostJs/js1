@@ -117,10 +117,54 @@
 
 // lesson 5 
 
-let userName;
+// let userName;
 
-document.getElementById("but").onclick = function(){
-    userName = document.getElementById("text").value;
-    document.getElementById("myh").textContent = `Hello My Dear ${userName}`
-    console.log(userName);
+// document.getElementById("but").onclick = function(){
+//     userName = document.getElementById("text").value;
+//     document.getElementById("myh").textContent = `Hello My Dear ${userName}`
+//     console.log(userName);
+// 
+
+//lesson 6 
+
+// var num = prompt("Write your score:")
+
+// if (num >= 100) {
+//     alert('You very smart')
+//     document.getElementById("myH").textContent = `Congratulations your score ${num}`;
+// }else if (num >= 90) {
+//     alert("A")
+//     document.getElementById("myH").textContent = `Congratulations your score ${num}`;
+// }else if (num >= 80 && num <= 89) {
+//     alert('B')
+//     document.getElementById("myH").textContent = `Congratulations your score ${num}`;
+// }else if (num >= 70 && num <= 79) {
+//     alert('C')
+//     document.getElementById("myH").textContent = `Congratulations your score ${num}`;
+// }else if (num >= 60 && num <= 69) {
+//     alert('D')
+//     document.getElementById("myH").textContent = `Congratulations your score ${num}`;
+// }else {
+//     alert('You very stupid')
+//     document.getElementById("myH").textContent = `Your score ${num} is very low unfortunately you dont pass`;
+
+// }
+
+// console.log( `Your score ${num}`);
+
+var num1 = +prompt("Write first number")
+
+var sum = prompt("Write operator")
+
+var num2 = +prompt("Write second number")
+
+if (sum == `+` ) {
+    alert(num1 + num2)
+}else if(sum == `-` ){
+    alert(num1 - num2 )
+}else if(sum == `/` ){
+    alert(num1 / num2 )
+}else if(sum == `*` ){
+    alert(num1 * num2 )
 }
+console.log(num1, sum , num2);
